@@ -1,0 +1,6 @@
+@import '@/assets/css/tailwind.css';
+
+body {
+  min-width: 400px;
+  min-height: 300px;
+}
