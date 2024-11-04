@@ -8,5 +8,5 @@ declare module 'wxt/sandbox' {
 }
 
 export default defineAppConfig({
-  theme: 'light'
+  theme: 'light',
 });

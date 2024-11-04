@@ -6,8 +6,8 @@ export default defineConfig({
   manifest() {
     // console.log('manifest 配置', env)
     return {
-      name: '收藏夹快速搜索',      
-      permissions: ['storage']
-    }
+      name: '收藏夹快速搜索',
+      permissions: ['storage'],
+    };
   },
 });

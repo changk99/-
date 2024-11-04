@@ -1,7 +1,7 @@
-import { defineRunnerConfig } from "wxt";
+import { defineRunnerConfig } from 'wxt';
 
 export default defineRunnerConfig({
-  startUrls: ["https://www.baidu.com"],
+  startUrls: ['https://www.baidu.com'],
   openConsole: true,
-  openDevtools: true
-})
+  openDevtools: true,
+});
