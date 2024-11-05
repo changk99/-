@@ -5,7 +5,6 @@ import pluginReact from 'eslint-plugin-react';
 import eslintrcAutoImport from './.wxt/eslintrc-auto-import.json' assert { type: 'json' };
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 
-// console.log(tseslint.configs.recommended);
 /** @type {import('eslint').Linter.Config[]} */
 export default [
   // ignores 只有单独设置时,才会作用到所有的配置对象中
