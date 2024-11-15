@@ -9,6 +9,7 @@ interface BookMarksSuggetResult {
 }
 let bookMarksSuggetResult: BookMarksSuggetResult[] = [];
 
+// 转换 < > & 为字符实体
 function convertToHtmlEntities(str: string) {
   return str.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
@@ -19,7 +20,6 @@ function flattenBookmarks(flatBookmarks: BookmarkTreeNode) {
 
   function traverseBookmarks(node: BookmarkTreeNode, path: string[] = []) {
     if (node.url) {
-      // 转换 < > & 为字符实体
       // 如果是书签，则创建一个包含描述的对象并添加到数组中
       bookMarksSuggetResult.push({
         content: node.title,
